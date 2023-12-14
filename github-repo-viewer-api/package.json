@@ -1,0 +1,25 @@
+{
+  "name": "github-repo-viewer-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.4.2",
+    "@fastify/env": "^4.3.0",
+    "axios": "^1.6.2",
+    "fastify": "^4.25.0",
+    "fastify-env": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "typescript": "^5.3.3"
+  }
+}
